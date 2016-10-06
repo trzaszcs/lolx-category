@@ -4,7 +4,15 @@
    [ring.util.response :refer :all]
    [clojure.data.json :as json]))
 
-(defonce categories [{:id 1 :name "Dom i Ogrod"} {:id 2 :name "Edukacja"} {:id 3 :name "Pozostale"}])
+(defonce categories [
+         {:id 1 :name "Sprzątanie"}
+         {:id 2 :name "Prace w ogrodzie"}
+         {:id 3 :name "Opieka nad zwierzętami"}
+         {:id 4 :name "Korepetycje"}
+         {:id 5 :name "Odebranie z imprezy"}
+         {:id 6 :name "Mycie auta"}
+         {:id 7 :name "Ciało"}
+         {:id 8 :name "Pozostałe"}])
 
 (defn single
   [request]
